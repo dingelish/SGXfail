@@ -14,6 +14,9 @@ License是取的比较严的 [CC-BY-NC-ND](https://creativecommons.org/licenses/
 
 最后打个广告，这一年多做的 [rust-sgx-sdk](https://github.com/baidu/rust-sgx-sdk) 自认为还是挺靠谱的。是唯一一个在 Intel SGX SDK 首页上被推荐的第三方SDK，已经有几个基于可信计算的区块链创业项目应用了这个SDK，比如 Berkeley Oasis Labs 的 [Ekiden](https://arxiv.org/abs/1804.05141)，MIT 的 [Engima](https://github.com/enigmampc/enigma-core) 等等。
 
+更新：[Chainlink](https://github.com/cryptape) 已经应用了 rust-sgx-sdk 并使用了我们移植的 WebAssembly 解释器! [Cargo.toml](https://github.com/smartcontractkit/chainlink/blob/393cbc896fe63c4ef44ab71218f0e89366d9b4e5/sgx/enclave/Cargo.toml)
+
+
 ## Index
 
 [00 SGX能做什么](00.md)
@@ -23,6 +26,8 @@ License是取的比较严的 [CC-BY-NC-ND](https://creativecommons.org/licenses/
 [02 CVE-2017-5753 upgrade 参考译文](02.md)
 
 [03 Edger8r upgrade 参考译文](03.md)
+
+[04 移植](04.md)
 
 # License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
